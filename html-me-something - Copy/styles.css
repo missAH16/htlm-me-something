@@ -1,0 +1,119 @@
+body
+{
+  margin: 100px 100px 75px 150px;
+}
+.pano
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+header
+{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+font-style: italic;
+text-align: center;
+}
+#catergories
+{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#bakery
+{
+  background-image: url("coffee beans.jpg");
+  opacity: 0.3;
+  text-align: center;
+  font-style: oblique;
+}
+#bakery
+{
+  color: black;
+}
+  p
+  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+  .columnB {
+    float: left;
+    width: 26%;
+    padding: 8px;
+  }
+  
+  .rowB::after 
+  {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.column {
+  float: right;
+  width: 26%;
+  padding: 20px;
+}
+
+.row::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2
+{
+  text-align: center;
+  font-size: large;
+  color: rgb(18, 99, 52);
+}
+h3
+{
+  text-align: center;
+  font-size: large;
+
+}
+h4
+{
+font-size: large;
+color: rgb(93, 34, 42);
+text-align: center;
+  font-style: oblique;
+}
+
+.columnC 
+{
+  float: left;
+  width: 17%;
+  padding: 8px;
+}
+
+.rowC::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+figcaption
+{
+  font-style: normal;
+  font-size: 13px;
+}
+h5
+{
+  font-size: large;
+  color: rgb(39, 11, 165);
+}
+footer
+{
+  text-align: end;
+  color: blue
+}
